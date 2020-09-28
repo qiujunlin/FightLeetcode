@@ -24,7 +24,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="二叉树的前序遍历.cpp">
+    <ClCompile Include="二叉树\基础\二叉树的前序遍历.cpp">
       <Filter>源文件\二叉树\二叉树学习</Filter>
     </ClCompile>
   </ItemGroup>
