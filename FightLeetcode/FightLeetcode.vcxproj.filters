@@ -13,5 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{b34cc389-5073-4f3a-8a7e-55882c4210c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二叉树\二叉树学习">
+      <UniqueIdentifier>{c2bd7a9d-0a3e-4f39-84e2-f9fb813bd611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二叉树\刷题">
+      <UniqueIdentifier>{7838edec-d9f7-45db-bb86-fbda08970bb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="二叉树的前序遍历.cpp">
+      <Filter>源文件\二叉树\二叉树学习</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
