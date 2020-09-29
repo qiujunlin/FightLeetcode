@@ -30,5 +30,14 @@
     <ClCompile Include="二叉树\刷题\2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="二叉树\基础\中序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\基础\后续遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\基础\层次遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

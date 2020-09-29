@@ -140,7 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="二叉树\刷题\2.cpp" />
+    <ClCompile Include="二叉树\基础\中序遍历.cpp" />
     <ClCompile Include="二叉树\基础\二叉树的前序遍历.cpp" />
+    <ClCompile Include="二叉树\基础\后续遍历.cpp" />
+    <ClCompile Include="二叉树\基础\层次遍历.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
