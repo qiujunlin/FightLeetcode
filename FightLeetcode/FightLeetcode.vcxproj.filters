@@ -27,9 +27,6 @@
     <ClCompile Include="二叉树\基础\二叉树的前序遍历.cpp">
       <Filter>源文件\二叉树\二叉树学习</Filter>
     </ClCompile>
-    <ClCompile Include="二叉树\刷题\2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="二叉树\基础\中序遍历.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -37,6 +34,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="二叉树\基础\层次遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\刷题\二叉树最大深度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\刷题\对称二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\刷题\路径总和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -70,7 +70,6 @@ public:
             TreeNode* node = sta.top();
             if (node != NULL) {
                 sta.pop();
-             
                 if (node->right != NULL) sta.push(node->right);
                 sta.push(node);
                 sta.push(NULL);
