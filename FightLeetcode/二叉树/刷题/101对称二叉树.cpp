@@ -9,7 +9,7 @@ struct TreeNode {
      TreeNode *right;
      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  };
-
+//使用递归的方法
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
