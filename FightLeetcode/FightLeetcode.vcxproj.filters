@@ -45,5 +45,14 @@
     <ClCompile Include="二叉树\刷题\112-路径总和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="递归\面试题-汉罗塔.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树\刷题\106-从中序与后序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="递归\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
