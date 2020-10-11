@@ -19,8 +19,8 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 /*思路
-* 使用中序遍历的思想很简单,bfs
-* 
+* 使用中序遍历的思想很简单,bfs,和116题差不多
+*
 */
 class Solution {
 public:
@@ -34,10 +34,10 @@ public:
                 Node* node = que.front();
                 que.pop();
                 if (i < size - 1) {
-    /*这里犯了一个错，找了好久才发现是哪里错了，这里的size之前使用的是que.size()-1，没有发现在代码之前，
-    * 我使用了pop（）队列的大小已经改变了，导致一直出现“member access within misaligned address 0xbebebebebebebebe ”
-    * 也就是使用没有进行初始化的节点
-    */
+                    /*这里犯了一个错，找了好久才发现是哪里错了，这里的size之前使用的是que.size()-1，没有发现在代码之前，
+                    * 我使用了pop（）队列的大小已经改变了，导致一直出现“member access within misaligned address 0xbebebebebebebebe ”
+                    * 也就是使用没有进行初始化的节点
+                    */
                     node->next = que.front();
                 }
                 else {
@@ -49,24 +49,5 @@ public:
         }
 
         return root;
-    }
-    /*方法2 使用 next指针的方法。
-    * 
-    */
-    Node* connect(Node* root) {
-        if (root == NULL) return root;
-        Node* leftmost = root;
-        while (leftmost->left) {
-            Node* head = leftmost;
-            while (head) {
-                head->left->next = head->right;
-                if(head->next) head->right->next = head->next->left;
-                head = head->next;
-            }
-            leftmost = leftmost->left;
-        }
-
-        return root;
-
     }
 };
