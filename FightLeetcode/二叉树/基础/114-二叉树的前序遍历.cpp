@@ -33,7 +33,7 @@ public:
         return  res;
     }
     //使用迭代的方法
-     //使用迭代的办法，使用nullpoint作为空标记
+     //使用迭代的办法，使用nullpoint作为空标记nullpoint作为空标记
     vector<int> preorderTraversal1(TreeNode* root) {
         stack<TreeNode* > sta;
         vector<int> res;

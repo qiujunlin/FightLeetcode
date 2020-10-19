@@ -147,6 +147,7 @@
     <ClCompile Include="二叉树\刷题\116-填充每个节点的下一个右侧节点指针.cpp" />
     <ClCompile Include="二叉树\刷题\117-填充每个节点的下一个右侧节点指针 II.cpp" />
     <ClCompile Include="二叉树\刷题\236.-二叉树的最近公共祖先.cpp" />
+    <ClCompile Include="二叉树\刷题\tets.cpp" />
     <ClCompile Include="二叉树\基础\95-中序遍历.cpp" />
     <ClCompile Include="二叉树\基础\114-二叉树的前序遍历.cpp" />
     <ClCompile Include="二叉树\基础\145-后续遍历.cpp" />
